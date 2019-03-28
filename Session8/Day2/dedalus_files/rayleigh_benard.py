@@ -22,8 +22,10 @@ import numpy as np
 from mpi4py import MPI
 import time
 
+
 from dedalus import public as de
 from dedalus.extras import flow_tools
+from dedalus.tools import post
 
 import logging
 logger = logging.getLogger(__name__)
